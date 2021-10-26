@@ -1,0 +1,117 @@
+table {
+	font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+body{
+	background-color:grey;
+	margin: 30px;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: center;
+  padding: 8px;
+    background-color: #96D4D4;
+	border-radius: 16px;
+
+}
+
+.bom{
+    text-align: left;
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin: .2em 0; }	
+}
+
+#firstname {
+	border-radius: 8px;
+}
+
+#lastname {
+	border-radius: 8px;
+}
+
+#mobile {
+	border-radius: 8px;
+}
+
+#email {
+	border-radius: 8px;
+}
+
+h1 {
+    display: table;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 135px;
+}
+
+h2 {
+    display: table;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+
+.button{
+  background-color: #96D4D4;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  	border-radius: 8px;
+ color:black;
+}
+
+.btn {
+  background-color: #96D4D4; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover{
+    background: grey;
+    cursor: pointer;
+}
+
+#menu{
+	background-color: #96D4D4;
+	height: 65px;
+	padding-top:10px;
+	border-radius: 16px;
+
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+#menu li{
+	display: inline-block;
+}
+
+#menu a{
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 50px;
+	color: black;
+
+	padding: 0 20px;
+	border: none;
+	display: block;
+}
